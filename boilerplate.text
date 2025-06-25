@@ -1,0 +1,6 @@
+Creation:
+-> npx create-next-app@latest my-next-app
+-> npm run dev(CHeck wheather they are working or not)
+-> npm i 
+-> Create a pages and pages to make  ui.
+-> add API folder within the pages folder
