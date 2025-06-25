@@ -149,7 +149,9 @@ const Page = () => {
               <h3 className="text-lg font-semibold">{artist.name}</h3>
               <p>
                 <strong>Category:</strong>{" "}
-                {artist.category?.join(", ") || "N/A"}
+                {Array.isArray(artist.category)
+                  ? artist.category.join(", ")
+                  : artist.category || "N/A"}
               </p>
               <p>
                 <strong>Fee:</strong> {artist.fee || "Not listed"}
