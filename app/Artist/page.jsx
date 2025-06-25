@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
-import Speaker from "../components/Speaker.jpeg";
+import Speaker from "../components/speaker.jpeg";
 
 import DJop from "../components/djop.jpeg";
 import arjit from "../components/arjit.jpeg";
